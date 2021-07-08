@@ -4,6 +4,11 @@
 
 int main(){
   int d1, d2;
+  char name[20];
+
+  puts("What is your name?");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
 
   srand((unsigned)time(NULL));
   d1 = rand() % 6 + 1;
