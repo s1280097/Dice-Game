@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<time.h>
+#include <time.h>
 
 int main(){
   int d1, d2;
@@ -18,7 +18,7 @@ int main(){
   printf("Die 1: %d\n", d1);
   printf("Die 2: %d\n", d2);
   printf("Total value: %d\n", d1+d2);
-  puts(d1+d2>7 ? "You won" : "You lost");
+  printf("%s%s\n", name, d1+d2>7 ? " won!" : " lost!");
 
   return 0;
 }
