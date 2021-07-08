@@ -13,6 +13,7 @@ int main(){
   printf("Die 1: %d\n", d1);
   printf("Die 2: %d\n", d2);
   printf("Total value: %d\n", d1+d2);
+  puts(d1+d2>7 ? "You won" : "You lost");
 
   return 0;
 }
